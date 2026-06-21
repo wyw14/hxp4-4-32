@@ -1,0 +1,56 @@
+﻿# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Caches / generated metadata
+.cache/
+.parcel-cache/
+.vite/
+.turbo/
+.next/cache/
+.nuxt/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Large local artifacts / archives
+*.zip
+*.tar
+*.tgz
+*.tar.gz
+*.rar
+*.7z
+*.iso
+*.dmg
+*.msi
+*.exe
+*.sqlite
+*.sqlite3
+*.db
