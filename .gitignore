@@ -54,3 +54,9 @@ Desktop.ini
 *.sqlite
 *.sqlite3
 *.db
+
+# Test / browser automation artifacts
+test-results/
+playwright-report/
+blob-report/
+.playwright/
